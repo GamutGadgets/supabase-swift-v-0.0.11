@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/Flight-School/AnyCodable",
         "state": {
           "branch": null,
-          "revision": "56901f2af3625b38924d488b612e95fe8846ee9b",
+          "revision": "862808b2070cd908cb04f9aafe7de83d35f81b05",
           "version": "0.6.7"
         }
       },
@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/kean/Get",
         "state": {
           "branch": null,
-          "revision": "032a75e7ed5116dbcff1baf1d410ef667bb7bf46",
+          "revision": "7209fdb015686fd90918b2037cb2039206405bd3",
           "version": "2.1.5"
         }
       },
@@ -60,7 +60,7 @@
         "repositoryURL": "https://github.com/supabase-community/storage-swift.git",
         "state": {
           "branch": null,
-          "revision": "ebb1ee7370ec0d50bcfb38ce05279e1475aebbf8",
+          "revision": "04703e499ca258899d7ad45717efe75b8ddc09ab",
           "version": "0.1.0"
         }
       },
@@ -87,7 +87,7 @@
         "repositoryURL": "https://github.com/pointfreeco/xctest-dynamic-overlay",
         "state": {
           "branch": null,
-          "revision": "30314f1ece684dd60679d598a9b89107557b67d9",
+          "revision": "5a5457a744239896e9b0b03a8e1a5069c3e7b91f",
           "version": "0.6.0"
         }
       }

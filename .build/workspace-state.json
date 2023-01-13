@@ -1,0 +1,180 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "anycodable",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/Flight-School/AnyCodable",
+          "name" : "AnyCodable"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "862808b2070cd908cb04f9aafe7de83d35f81b05",
+            "version" : "0.6.7"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "AnyCodable"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "get",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kean/Get",
+          "name" : "Get"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "7209fdb015686fd90918b2037cb2039206405bd3",
+            "version" : "2.1.5"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Get"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "gotrue-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/supabase-community/gotrue-swift",
+          "name" : "GoTrue"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "32719c3487d144a0fd76b9cd7bc5606c1fc720b7",
+            "version" : "0.0.9"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "gotrue-swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "keychainaccess",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kishikawakatsumi/KeychainAccess",
+          "name" : "KeychainAccess"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "84e546727d66f1adc5439debad16270d0fdd04e7",
+            "version" : "4.2.2"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "KeychainAccess"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "postgrest-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/supabase-community/postgrest-swift",
+          "name" : "PostgREST"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "e949f57873118a44f301e4e6fee739ea589f6e7f",
+            "version" : "0.0.6"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "postgrest-swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "realtime-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/supabase-community/realtime-swift.git",
+          "name" : "Realtime"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "0b985c687fe963f6bd818ff77a35c27247b98bb4",
+            "version" : "0.0.2"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "realtime-swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "storage-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/supabase-community/storage-swift.git",
+          "name" : "SupabaseStorage"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "04703e499ca258899d7ad45717efe75b8ddc09ab",
+            "version" : "0.1.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "storage-swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-composable-keychain",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/binaryscraping/swift-composable-keychain",
+          "name" : "ComposableKeychain"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "3ebddfe9e9232218bada99ab6d6b3ca1fd94f112",
+            "version" : "0.0.2"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-composable-keychain"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "urlqueryencoder",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kean/URLQueryEncoder",
+          "name" : "URLQueryEncoder"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "4cc975d4d075d0e62699a796a08284e217d4ee93",
+            "version" : "0.2.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "URLQueryEncoder"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "xctest-dynamic-overlay",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
+          "name" : "xctest-dynamic-overlay"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "5a5457a744239896e9b0b03a8e1a5069c3e7b91f",
+            "version" : "0.6.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "xctest-dynamic-overlay"
+      }
+    ]
+  },
+  "version" : 5
+}

@@ -1,0 +1,4 @@
+module URLQueryEncoder {
+    header "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/URLQueryEncoder.build/URLQueryEncoder-Swift.h"
+    requires objc
+}

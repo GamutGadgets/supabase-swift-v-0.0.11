@@ -1,0 +1,1330 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.AnyCodable-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/AnyCodable/Sources/AnyCodable/AnyCodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/AnyCodable/Sources/AnyCodable/AnyDecodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/AnyCodable/Sources/AnyCodable/AnyEncodable.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AnyCodable",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.build/AnyCodable.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.build/AnyDecodable.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.build/AnyEncodable.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.build/AnyCodable-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.build/AnyCodable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.build/AnyDecodable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.build/AnyEncodable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/AnyCodable/Sources/AnyCodable/AnyCodable.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/AnyCodable/Sources/AnyCodable/AnyDecodable.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/AnyCodable/Sources/AnyCodable/AnyEncodable.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ComposableKeychain-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/swift-composable-keychain/Sources/ComposableKeychain/Interface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/swift-composable-keychain/Sources/ComposableKeychain/Live.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/swift-composable-keychain/Sources/ComposableKeychain/Mocks.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/KeychainAccess.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ComposableKeychain",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.build/Interface.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.build/Live.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.build/Mocks.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.build/ComposableKeychain-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.build/Interface.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.build/Live.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.build/Mocks.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/swift-composable-keychain/Sources/ComposableKeychain/Interface.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/swift-composable-keychain/Sources/ComposableKeychain/Live.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/swift-composable-keychain/Sources/ComposableKeychain/Mocks.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Get-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/APIClientDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/DataLoader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/Request.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/Response.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Get",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/APIClient.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/APIClientDelegate.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/DataLoader.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/Request.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/Response.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/Get-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/APIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/APIClientDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/DataLoader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/Request.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build/Response.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/APIClient.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/APIClientDelegate.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/DataLoader.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/Request.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/Get/Sources/Get/Response.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GoTrue-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/AuthChangeEvent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Constants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Generated/Entities.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Generated/Paths.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/GoTrueClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/GoTrueError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Internal/Environment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Internal/Helpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Internal/SessionManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Version.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Get.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ComposableKeychain.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/URLQueryEncoder.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GoTrue",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/AuthChangeEvent.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Constants.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Extensions.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Generated/Entities.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Generated/Paths.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/GoTrueClient.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/GoTrueError.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Internal/Environment.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Internal/Helpers.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Internal/SessionManager.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Version.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/GoTrue-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/AuthChangeEvent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Constants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Generated/Entities.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Generated/Paths.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/GoTrueClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/GoTrueError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Internal/Environment.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Internal/Helpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Internal/SessionManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build/Version.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/AuthChangeEvent.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Constants.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Extensions.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Generated/Entities.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Generated/Paths.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/GoTrueClient.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/GoTrueError.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Internal/Environment.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Internal/Helpers.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Internal/SessionManager.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/gotrue-swift/Sources/GoTrue/Version.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.KeychainAccess-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "KeychainAccess",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/KeychainAccess.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/KeychainAccess.build/Keychain.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/KeychainAccess.build/KeychainAccess-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/KeychainAccess.build/Keychain.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/KeychainAccess.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/KeychainAccess.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PostgREST-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/Concurrency.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/Constants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/CountOption.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestFilterBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestQueryBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestReturningOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestRpcBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestTransformBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/TextSearchType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/URLQueryRepresentable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/Version.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PostgREST",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/Concurrency.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/Constants.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/CountOption.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestBuilder.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestClient.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestError.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestFilterBuilder.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestQueryBuilder.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestResponse.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestReturningOptions.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestRpcBuilder.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestTransformBuilder.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/TextSearchType.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/URLQueryRepresentable.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/Version.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgREST-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/Concurrency.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/Constants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/CountOption.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestFilterBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestQueryBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestReturningOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestRpcBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/PostgrestTransformBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/TextSearchType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/URLQueryRepresentable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build/Version.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/Concurrency.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/Constants.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/CountOption.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestBuilder.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestClient.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestError.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestFilterBuilder.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestQueryBuilder.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestResponse.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestReturningOptions.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestRpcBuilder.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/PostgrestTransformBuilder.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/TextSearchType.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/URLQueryRepresentable.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/postgrest-swift/Sources/PostgREST/Version.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Realtime-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Channel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Defaults.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Delegated.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/HeartbeatTimer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Message.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Push.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/RealtimeClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/SocketError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/StateChangeCallbacks.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/TimeoutTimer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Transport.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Realtime",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Channel.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Defaults.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Delegated.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/HeartbeatTimer.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Message.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Push.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/RealtimeClient.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/SocketError.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/StateChangeCallbacks.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/TimeoutTimer.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Transport.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Realtime-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Channel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Defaults.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Delegated.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/HeartbeatTimer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Message.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Push.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/RealtimeClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/SocketError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/StateChangeCallbacks.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/TimeoutTimer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build/Transport.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Channel.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Defaults.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Delegated.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/HeartbeatTimer.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Message.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Push.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/RealtimeClient.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/SocketError.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/StateChangeCallbacks.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/TimeoutTimer.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/realtime-swift/Sources/Realtime/Transport.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Supabase-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/Sources/Supabase/SupabaseClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/Sources/Supabase/Version.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/GoTrue.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Realtime.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/PostgREST.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Supabase",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Supabase.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Supabase.build/SupabaseClient.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Supabase.build/Version.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Supabase.build/Supabase-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Supabase.build/SupabaseClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Supabase.build/Version.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Supabase.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/Sources/Supabase/SupabaseClient.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/Sources/Supabase/Version.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/Supabase.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SupabaseStorage-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/Bucket.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/FileObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/FileOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/MultipartFile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/SearchOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/SortBy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageApi.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageBucketApi.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageFileApi.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageHTTPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/SupabaseStorage.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SupabaseStorage",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/Bucket.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/FileObject.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/FileOptions.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/MultipartFile.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/SearchOptions.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/SortBy.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageApi.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageBucketApi.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageError.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageFileApi.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageHTTPClient.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/SupabaseStorage.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/SupabaseStorage-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/Bucket.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/FileObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/FileOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/MultipartFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/SearchOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/SortBy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageApi.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageBucketApi.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageFileApi.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/StorageHTTPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build/SupabaseStorage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/Bucket.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/FileObject.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/FileOptions.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/MultipartFile.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/SearchOptions.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/SortBy.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageApi.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageBucketApi.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageError.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageFileApi.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/StorageHTTPClient.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/storage-swift/Sources/SupabaseStorage/SupabaseStorage.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/SupabaseStorage.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.URLQueryEncoder-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/URLQueryEncoder/Sources/URLQueryEncoder/URLQueryEncoder.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "URLQueryEncoder",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/URLQueryEncoder.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/URLQueryEncoder.build/URLQueryEncoder.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/URLQueryEncoder.build/URLQueryEncoder-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/URLQueryEncoder.build/URLQueryEncoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/URLQueryEncoder.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/URLQueryEncoder/Sources/URLQueryEncoder/URLQueryEncoder.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/URLQueryEncoder.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.XCTestDynamicOverlay-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Internal/Deprecations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Internal/RuntimeWarnings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Internal/XCTCurrentTestCase.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Unimplemented.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/XCTFail.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/XCTIsTesting.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "XCTestDynamicOverlay",
+      "moduleOutputPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.swiftmodule",
+      "objects" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Internal/Deprecations.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Internal/RuntimeWarnings.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Internal/XCTCurrentTestCase.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Unimplemented.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/XCTFail.swift.o",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/XCTIsTesting.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/XCTestDynamicOverlay-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Internal/Deprecations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Internal/RuntimeWarnings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Internal/XCTCurrentTestCase.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Unimplemented.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/XCTFail.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/XCTIsTesting.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Internal/Deprecations.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Internal/RuntimeWarnings.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Internal/XCTCurrentTestCase.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Unimplemented.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/XCTFail.swift",
+        "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/XCTIsTesting.swift"
+      ],
+      "tempsPath" : "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

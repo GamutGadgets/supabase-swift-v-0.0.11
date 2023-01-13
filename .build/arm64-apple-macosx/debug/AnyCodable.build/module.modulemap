@@ -1,0 +1,4 @@
+module AnyCodable {
+    header "/Users/tdeville/Development/supabase-swift-v-0.0.11/.build/arm64-apple-macosx/debug/AnyCodable.build/AnyCodable-Swift.h"
+    requires objc
+}
